@@ -1,20 +1,29 @@
 .header {
     text-align: center;
     font-weight: 400;
-    margin-top: 0px;
+}
+
+.banner-text {
+    margin-bottom: 0px;
+    justify-content: center;
+
+}
+
+.first-image {
+    margin-top: 20px;
 }
 
 .picture {
-    display: block;
+    margin-top: 25px;
+    margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    margin-top: 50px;
     width: 1320px;
     height: 600px;
     flex-shrink: 0;
     border-radius: 16px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    background: rgba(7, 2, 17, 0.00);
 }
 
 /* second item */
@@ -65,10 +74,25 @@
     margin-top: 150px;
 }
 
+.midnight-party {
+    text-align: center;
+    width: 642px;
+    color: #FFF;
+}
+
+/* .com-item {
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    background: rgba(7, 2, 17, 0.00);
+    margin-bottom: 200px;
+} */
+
 .com {
     display: flex;
     background-position: center;
-    background: linear-gradient(#070211) margin-top: 100px;
+    background: fill: linear-gradient(90deg, #070211 0%, Srgba(7, 2, 17, 0.00) 100%);
+    margin-top: 0px;
     margin-left: auto;
     margin-right: 286px;
 }
@@ -88,16 +112,25 @@
 
 /* fourth item */
 .box-item {
+    margin-top: 100px;
+    margin-left: 15%;
+    justify-content: center;
+    padding-top: 200px;
+    margin-bottom: 120px;
+    background: aliceblue;
+    width: 1320px;
+    height: 482px;
     text-align: center;
     color: #070211;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
-    line-height: 56px;
     margin-top: 200px;
     font-size: 32px;
-    font-weight: 600;
-    line-height: 56px;
     text-transform: capitalize;
+}
+
+.park-hotel {
+    text-align: center;
 }
 
 
@@ -161,34 +194,41 @@
     display: flex;
 }
 
+.extra-item2 {
+    text-align: right;
+}
+
 .middile-item {
     align-items: center;
     justify-content: center;
-    margin-left: 18.5%;
+    margin-left: 10%;
     width: 364.844px;
     height: 364.844px;
     display: flex;
     background-color: lightgray;
-    /* border: 15px solid #F00; */
+    border: 15px solid #F00;
+    border-radius: 463px;
     padding: 0px;
-    box-sizing: border-box;
+    margin-right: 6%;
 }
 
-.border-ellipse img {
+.middile-item .border-ellipse {}
+
+/* .border-ellipse . {
     width: 463px;
     height: 463px;
     flex-shrink: 0;
     border-radius: 463px;
-    width: 1600px;
-    height: 7335px;
+    max-width: 1600px;
+    max-height: 7335px;
     border: 15px solid #F00;
     background: #FFF;
     height: 300px;
     width: 300px;
-}
+} */
 
 .first-section {
-    display: block;
+    margin-left: 200px;
 }
 
 /* .border-ellipse {
@@ -288,6 +328,10 @@
     margin-bottom: 120px;
 }
 
+.fout-item {
+    display: flex;
+}
+
 .rectangle-second {
     width: 429px;
     height: 433px;
@@ -297,7 +341,8 @@
     margin-left: 63.5%;
     margin-bottom: 0px;
     padding-bottom: 0px;
-    margin-top: 10px;
+    margin-top: 15px;
+    border-bottom: whitesmoke;
 }
 
 .rectangle-third {
@@ -307,10 +352,11 @@
 }
 
 .flower-item {
+    justify-content: top;
     fill: linear-gradien(#1D1D1B);
     background-blend-mode: screen;
     mix-blend-mode: screen;
-    margin-bottom: 0px;
+    margin-bottom: 100px;
     margin-top: 0px;
 }
 
@@ -423,7 +469,7 @@
     width: 15%;
     margin-left: 33.6%;
     border-radius: 50px 0px 0px 50px;
-    border: white 500px;
+    border: white 50px;
 }
 
 .subscribe-item {
@@ -440,14 +486,67 @@
 
 }
 
-
-
-/* 
-footer item */
+/* footer item */
 .footer-item {
-    margin-top: 120px;
     background: #070211;
-    width: 1600px;
-    max-height: 609px;
-    flex-shrink: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+}
+
+margin-top: 120px;
+margin-bottom: 0px;
+width: 2000px fixed;
+height: 500px fixed;
+flex-shrink: 0;
+position: relative;
+}
+
+.item-class {
+    margin-left: 200px;
+    padding-top: 300px;
+    margin-top: 120px;
+    color: #FFF;
+    font-size: 24px;
+    padding-bottom: 100px;
+    font-weight: 500;
+}
+
+.item-div {
+    margin-left: 80%;
+    padding-right: 360px;
+    top: 80%;
+}
+
+.item-none {
+    padding-bottom: 100px;
+    text-align: right;
+    margin-right: 200px;
+    text-size-adjust: 24px;
+}
+
+.item-x {
+    display: block;
+}
+
+.item-div {
+    margin-right: 40px;
+}
+
+.hori-one {
+    align-items: right top;
+}
+
+
+.in-sha {
+    margin-left: 50%;
+    margin-right: 50%;
+    gap: 24px;
+    position: relative;
+    left: 45%;
+    padding-bottom: 20px;
 }
